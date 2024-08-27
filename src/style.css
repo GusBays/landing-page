@@ -1,0 +1,65 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+:root {
+  /**
+   * @Colors
+  */
+  --primary: #00a86b;
+  --secondary: #ebebed;
+  --success: #019b7f;
+  --danger: #c80000;
+  --white: #fff;
+  --black: #121212;
+  --grey: #414141;
+
+  --background-color: #414141;
+
+  /**
+   *@Borders
+  */
+  --border-radius-default: 16px;
+  --border-radius-sm: 6px;
+  --border-radius-md: 12px;
+  --border-default: solid 1px rgba(0, 0, 0, 0.1);
+
+  /**
+   * @Margins
+  */
+  --margin-default: 16px;
+  --margin-sm: 6px;
+  --margin-md: 12px;
+  --margin-lg: 24px;
+  --margin-xl: 32px;
+
+  /**
+   * @Paddings
+  */
+  --padding-default: 16px;
+  --padding-sm: 6px;
+  --padding-md: 12px;
+  --padding-lg: 24px;
+  --padding-xl: 32px;
+
+  /**
+   * @Gap
+  */
+  --gap-default: 16px;
+  --gap-sm: 6px;
+  --gap-md: 12px;
+  --gap-lg: 24px;
+  --gap-xl: 32px;
+}
