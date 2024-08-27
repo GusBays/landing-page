@@ -1,3 +1,3 @@
 # Introdução
 
-Projeto boilerplate para aplicações Vue.js.
+Projeto portifólio para apresentação de uma landing page
