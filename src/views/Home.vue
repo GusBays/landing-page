@@ -37,15 +37,15 @@ const banners: IBannersProps = {
   mask: "grey",
   banners: [
     {
-      src: "/assets/images/banner-1.jpg",
+      src: "../assets/images/banner-1.jpg",
       title: { label: "Capture leads", tag: "h4" },
     },
     {
-      src: "/assets/images/banner-2.jpg",
+      src: "../assets/images/banner-2.jpg",
       title: { label: "Impulsione suas vendas", tag: "h4" },
     },
     {
-      src: "/assets/images/banner-3.jpg",
+      src: "../assets/images/banner-3.jpg",
       title: { label: "Alcance novos publicos com sua marca", tag: "h4" },
     },
   ],
