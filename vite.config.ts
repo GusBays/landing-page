@@ -4,7 +4,8 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  base: "production" === mode ? "/landing-page/" : "",
   plugins: [vue(), tsconfigPaths()],
   resolve: {
     alias: [
@@ -15,4 +16,4 @@ export default defineConfig({
       },
     ],
   },
-});
+}));
